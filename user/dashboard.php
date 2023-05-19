@@ -9,7 +9,7 @@ header('location:logout.php');
 <!DOCTYPE html>
 <html class="loading" lang="en" data-textdirection="ltr">
 <head>
-  <title>College Admission Management System | Dashboard</title>
+  <title>VERA || College Admission Management System | Dashboard</title>
  
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
   rel="stylesheet">
