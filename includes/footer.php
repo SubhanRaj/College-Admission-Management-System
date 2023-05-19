@@ -69,7 +69,7 @@ if (isset($_POST['sub'])) {
 
       </div>
       <div class="d-grid grid-col-2 bottom-copies">
-        <p class="copy-footer-29">Designed & Developed By Mohd. Zaid Siddiqui</p>
+        <p class="copy-footer-29">Designed & Developed By Mohd. Zaid Siddiqui &amp; Faizan Hussain Rizvi</p>
         <br>
         <p class="copy-footer-29">© College Admission Management System. All rights reserved </p>
       </div>
