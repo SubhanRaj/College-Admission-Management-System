@@ -45,7 +45,7 @@ while ($row=mysqli_fetch_array($ret)) {
         <div class="col-lg-4 col-md-6 mt-md-0 mt-4 w3l-pricing-7-gd-left active">
           <div class="w3l-pricing-7 pric-7 active">
             <h6><?php  echo $row['CourseName'];?></h6>
-            <div class="w3l-pricing-7-top">
+            <div class="w3l-pricing-7-top p-2">
             
               <p><?php echo $row['CourseDescription'];?></p>
            </div>
