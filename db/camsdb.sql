@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 19, 2023 at 09:14 PM
--- Server version: 10.4.24-MariaDB
--- PHP Version: 8.1.6
+-- Generation Time: May 19, 2023 at 09:48 PM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 8.0.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -153,14 +153,12 @@ CREATE TABLE `tblcourse` (
 --
 
 INSERT INTO `tblcourse` (`ID`, `CourseName`, `CourseDescription`, `CreationDate`) VALUES
-(1, 'B.Tech', 'Check here the list of all b tech Courses with top Specializations you can opt after the 12th. Explore the list to know more.', '2022-02-28 06:31:24'),
-(2, 'Agriculture', 'Bachelor of Science in Agriculture. Bachelor of Science (Honors) in Agriculture. Bachelor of Science in Crop Physiology.', '2022-02-28 06:31:24'),
-(3, 'MCA', 'Master of Computer Applications (MCA) is a two year professional post-graduate programme for candidates wanting to delve deeper into the world of computer application.', '2022-02-28 06:31:24'),
-(4, 'MSC', 'A Master of Science degree (or MSc for short) is a degree awarded at universities around the world for completion of graduate-level study in a science- or technology-related field.', '2022-02-28 06:31:24'),
-(5, 'B.COM', 'Full form of BCom is Bachelor of Commerce. B.Com is most popular among aspiring teachers/lecturers and researchers. UGC-NET/JRF and Ph.D. are among popular options for MCom degree holders. ', '2022-02-28 06:31:24'),
-(6, 'BSC', 'A Bachelor of Science degree (or BSc for short) is a degree awarded at universities around the world for completion of graduate-level study in a science- or technology-related field.', '2022-02-28 06:31:24'),
-(7, 'MCOM', 'Full form of MCom is Masters of Commerce. M.Com is most popular among aspiring teachers/lecturers and researchers. UGC-NET/JRF and Ph.D. are among popular options for MCom degree holders. Admission to MCom in top universities is done through an entrance exam. Many universities offer merit-based admission to the course. MCom in India can be pursued as a full-time, part-time, distance or correspondence and online course.', '2022-02-28 06:31:24'),
-(12, 'BCA', 'Master of Computer Applications (MCA) is a two year professional post-graduate programme for candidates wanting to delve deeper into the world of computer application development with the help of learning modern programming language. The programme is a blend of both theoretical and practical knowledge.', '2022-02-28 06:31:24');
+(1, 'B.Tech', 'The Bachelor of Technology (B.Tech) program is a four-year undergraduate degree that focuses on engineering and technology. This course provides students with a strong foundation in core engineering concepts, practical skills, and problem-solving abilities. B.Tech graduates are equipped with the knowledge and expertise to innovate, design, and develop technological solutions in various fields, ranging from computer science and electrical engineering to mechanical and civil engineering.', '2022-02-28 06:31:24'),
+(2, 'MBA', 'The Master of Business Administration (MBA) program is a prestigious postgraduate degree that prepares individuals for leadership and management roles in the business world. This course provides a comprehensive understanding of business principles, strategic management, finance, marketing, and entrepreneurship. MBA graduates possess the necessary skills to navigate complex business environments, make informed decisions, and drive organizational growth and success.', '2023-05-19 19:28:19'),
+(3, 'BCA', 'The Bachelor of Computer Applications (BCA) program is a three-year undergraduate degree that focuses on computer science and its applications. This course provides students with a strong foundation in programming, software development, database management, and computer networking. BCA graduates are well-versed in various programming languages and are equipped to pursue careers in software development, web design, system administration, and other areas of information technology.', '2023-05-19 19:28:40'),
+(4, 'MCA', 'The Master of Computer Applications (MCA) program is a postgraduate degree that further enhances the knowledge and skills gained during a BCA or related undergraduate program. This course delves deeper into advanced topics such as software engineering, data structures, artificial intelligence, and computer networks. MCA graduates possess advanced programming expertise and are well-prepared for roles in software development, system analysis, database administration, and other specialized areas of computer science.', '2023-05-19 19:28:55'),
+(5, 'BBA', 'The Bachelor of Business Administration (BBA) program is a three-year undergraduate degree that provides a comprehensive understanding of business and management principles. This course covers various disciplines such as marketing, finance, human resources, operations, and entrepreneurship. BBA graduates develop strong analytical, communication, and leadership skills, preparing them for entry-level managerial positions in diverse industries or for further studies in the field of business.', '2023-05-19 19:29:09'),
+(6, 'BA', 'The Bachelor of Arts (BA) program is a three-year undergraduate degree that offers a broad-based education in humanities, social sciences, and liberal arts. This course allows students to explore various subjects such as literature, history, sociology, psychology, economics, and political science. BA graduates develop critical thinking, research, and communication skills, enabling them to pursue careers in fields like journalism, education, public administration, research, or to pursue further studies in their chosen area of specialization.', '2023-05-19 19:29:29');
 
 -- --------------------------------------------------------
 
@@ -206,8 +204,7 @@ CREATE TABLE `tblnotice` (
 --
 
 INSERT INTO `tblnotice` (`ID`, `Title`, `Decription`, `CreationDate`) VALUES
-(1, 'Test Notice', 'This for testing purpose.  This for testing purpose.This for testing purpose.  This for testing purpose.', '2021-05-18 19:49:42'),
-(2, 'Classes going to start', 'uiou\r\ngyufgiuyrfuitrseytguird\r\ngjvksdgjfgiegiuteyuhtg', '2022-03-02 12:16:00');
+(4, 'Campus Closure Due to Weather Conditions', 'Attention all students and staff: Due to severe weather conditions, the campus will remain closed on 25-December-2025. All classes, events, and activities are canceled for the day. Please stay safe and monitor official communication channels for further updates.', '2023-05-19 19:43:21');
 
 -- --------------------------------------------------------
 
@@ -231,7 +228,7 @@ CREATE TABLE `tblpage` (
 --
 
 INSERT INTO `tblpage` (`ID`, `PageType`, `PageTitle`, `PageDescription`, `Email`, `MobileNumber`, `UpdationDate`, `Timing`) VALUES
-(1, 'aboutus', 'About Us', 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam. ', NULL, NULL, NULL, ''),
+(1, 'aboutus', 'About Us', 'Our University Admission Management system is a comprehensive and efficient solution designed to streamline and automate the university admission process. Our platform empowers universities to seamlessly manage and organize student applications, evaluate candidates, and facilitate communication with prospective students. With user-friendly interfaces and robust features, our system simplifies the complex tasks associated with admissions, ensuring a smooth and transparent experience for both applicants and university staff. By leveraging cutting-edge technology, we aim to revolutionize the admissions process, enabling universities to focus on their core mission of providing quality education while attracting the best-suited candidates', NULL, NULL, NULL, ''),
 (2, 'contactus', 'Contact Us', 'Street No. 6, Sector B, Vrindavan Colony, Lucknow', 'siddiquizaid213@gmail.com', 9795285894, NULL, '10:30 am to 7:30 pm');
 
 -- --------------------------------------------------------
@@ -370,7 +367,7 @@ ALTER TABLE `tblcontact`
 -- AUTO_INCREMENT for table `tblcourse`
 --
 ALTER TABLE `tblcourse`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `tblfees`
@@ -382,7 +379,7 @@ ALTER TABLE `tblfees`
 -- AUTO_INCREMENT for table `tblnotice`
 --
 ALTER TABLE `tblnotice`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `tblpage`

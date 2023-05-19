@@ -45,8 +45,8 @@ error_reporting(0);
             <div class="banner-info">
               <div class="container">
                 <div class="banner-info-bg mx-auto text-center">
-                  <h5>Explore The World Of Our Graduates</h5>
-                  <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="contact.php">Contact Now</a>
+                  <h5>Explore What We Have to Offer</h5>
+                  <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="courses.php">Contact Now</a>
                 </div>
               </div>
             </div>
@@ -74,7 +74,7 @@ error_reporting(0);
               <div class="container">
                 <div class="banner-info-bg mx-auto text-center">
                   <h5>Explore The World Of Our Graduates</h5>
-                  <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a>
+                  <a class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="about.html">Read More</a>
                 </div>
               </div>
             </div>
@@ -161,9 +161,7 @@ while ($row=mysqli_fetch_array($ret)) {
 					<div class="heading">
 						<h3 class="head text-white">Apply for Addmission</h3>
 						<h4>Limited Seat Available</h4>
-						<p class="my-3 text-white"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-						  Nulla mollis dapibus nunc, ut rhoncus
-						  turpis sodales quis. Integer sit amet mattis quam.</p>
+						<p class="my-3 text-white">Apply now to secure your spot and embark on an exciting journey towards academic excellence. Don't miss the opportunity to join our prestigious institution. Click the button below to begin your application process.</p>
 					  </div>
 					</div>
 					<div class="column2">

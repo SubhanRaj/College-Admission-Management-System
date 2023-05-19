@@ -34,7 +34,7 @@ $rti=$_GET['nid'];
         <div class="container py-md-3">
              <div class="pricing-style-w3ls row py-md-5">
               <div class="pricing-chart col-lg-12">
-                <h3 class="">All Notices</h3> <?php $query=mysqli_query($con,"select * from tblnotice tblnotice ORDER BY ID DESC");
+                <h3 class="">All Notices</h3> <?php $query=mysqli_query($con,"select * from tblnotice ORDER BY ID ASC");
 while ($row=mysqli_fetch_array($query)) {
 ?>
                 <div class="tatest-top mt-md-5 mt-4">
