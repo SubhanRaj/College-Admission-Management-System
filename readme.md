@@ -1,4 +1,4 @@
-# College Admission Managment System Project
+# VERA: College Admission Managment System Project
 
 # Tech Stack
 
