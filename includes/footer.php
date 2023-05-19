@@ -53,7 +53,7 @@ while ($row=mysqli_fetch_array($ret)) {
                       <li><a href="index.php">Home</a></li>
                       <li><a href="about.php">About</a></li>
                       <li><a href="contact.php">Contact</a></li>
-                      <li><a href="ourses.php">Courses</a></li>
+                      <li><a href="courses.php">Courses</a></li>
                       <li><a href="admin/login.php">Admin</a></li>
                       <li><a href="user/login.php">Users</a></li>
                   </ul>
