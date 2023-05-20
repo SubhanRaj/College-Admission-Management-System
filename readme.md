@@ -16,13 +16,13 @@
 4. Login as per the given credentials.
 
 
-# Credentials 
+## Credentials 
 
-## Credentials for Admin
+### Credentials for Admin
 username : admin
 Password : Test@123
 
-## Credentials for Student
+### Credentials for Student
 
 username : test1@gmail.com
 Password : Test@123
