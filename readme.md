@@ -1,6 +1,6 @@
 # VERA: College Admission Managment System Project
 
-# Tech Stack
+## Tech Stack
 
 * Frontend: HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax
 
@@ -8,7 +8,7 @@
 
 * Database: MySQL
 
-# How to run this project
+## How to run this project
 
 1. Clone the GitHub repo into 'cams' folder in your htdocs folder.
 2. Create a database named 'camsdb' and import the SQL file from the database folder.
