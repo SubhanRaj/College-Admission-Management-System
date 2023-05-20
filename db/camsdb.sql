@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 19, 2023 at 09:48 PM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 8.0.10
+-- Generation Time: May 20, 2023 at 06:08 AM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -204,7 +204,10 @@ CREATE TABLE `tblnotice` (
 --
 
 INSERT INTO `tblnotice` (`ID`, `Title`, `Decription`, `CreationDate`) VALUES
-(4, 'Campus Closure Due to Weather Conditions', 'Attention all students and staff: Due to severe weather conditions, the campus will remain closed on 25-December-2025. All classes, events, and activities are canceled for the day. Please stay safe and monitor official communication channels for further updates.', '2023-05-19 19:43:21');
+(4, 'Campus Closure Due to Weather Conditions', 'Attention all students and staff: Due to severe weather conditions, the campus will remain closed on 25-December-2025. All classes, events, and activities are canceled for the day. Please stay safe and monitor official communication channels for further updates.', '2023-05-19 19:43:21'),
+(5, 'Scholarship Application Deadline Extended', 'Important Announcement: The deadline for scholarship applications has been extended to [new deadline date]. This extension provides eligible students with additional time to submit their applications. Don\'t miss this opportunity to avail yourself of financial assistance. Visit the scholarship office or the university website for more information', '2023-05-19 20:01:04'),
+(6, 'Career Fair Announcement', 'Calling all students and recent graduates! We are excited to announce our upcoming Career Fair on [date]. This event will provide an excellent opportunity to meet and network with top employers from various industries. Come prepared with your resumes and dress professionally. Don\'t miss out on this chance to explore potential career opportunities!', '2023-05-19 20:01:38'),
+(7, 'Campus Closure Due to Weather Conditions', 'Attention all students and staff: Due to severe weather conditions, the campus will remain closed on [date]. All classes, events, and activities are canceled for the day. Please stay safe and monitor official communication channels for further updates.', '2023-05-19 20:01:38');
 
 -- --------------------------------------------------------
 
@@ -279,8 +282,7 @@ INSERT INTO `tbluser` (`ID`, `FirstName`, `LastName`, `MobileNumber`, `Email`, `
 (3, 'Sariya', 'Singh', 7894561236, 'test@gmail.com', '202cb962ac59075b964b07152d234b70', '2022-03-01 13:10:42'),
 (4, 'Johnn', 'doe', 1234567898, 'johndoe@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2022-03-03 17:16:20'),
 (5, 'Amit', 'Kumar Singh', 1256987410, 'amitk@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2022-03-04 01:33:48'),
-(6, 'test1', 'test2', 1123325444, 'test1@gmail.com', '098f6bcd4621d373cade4e832627b4f6', '2022-03-04 04:26:10'),
-(7, 'Subhan', 'Raj', 9450430095, 'a-4793@kmclu.ac.in', 'e10adc3949ba59abbe56e057f20f883e', '2023-05-19 17:30:14');
+(6, 'test1', 'test2', 1123325444, 'test1@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2022-03-04 04:26:10');
 
 --
 -- Indexes for dumped tables
@@ -379,7 +381,7 @@ ALTER TABLE `tblfees`
 -- AUTO_INCREMENT for table `tblnotice`
 --
 ALTER TABLE `tblnotice`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `tblpage`

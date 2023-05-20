@@ -25,7 +25,9 @@ while ($row=mysqli_fetch_array($ret)) {
 <section class="w3l-bootstrap-header">
   <nav class="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
     <div class="container">
-      <a class="navbar-brand" href="index.php"><span class="fa fa-pencil-square-o "></span> VERA</a>
+      <a class="navbar-brand" href="index.php">
+        <img src="./assets/images/kmclu.png" alt="" height="45px" width="45px" class="logo"> VERA
+      </a>
      
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -24,7 +24,7 @@ Password : Test@123
 
 ## Credentials for Student
 
-username : test1@gmail.com or  1123325444
+username : test1@gmail.com
 Password : Test@123
 
 
