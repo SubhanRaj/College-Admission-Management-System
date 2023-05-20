@@ -1,4 +1,5 @@
 # VERA: College Admission Managment System Project
+A College Admission Managment System Project made for automating and digitizing the admission process of a college. This project is made using PHP, MySQL, HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax. 
 
 ## Tech Stack
 
