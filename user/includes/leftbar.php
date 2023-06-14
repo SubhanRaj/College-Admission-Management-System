@@ -9,7 +9,8 @@
      
   <li class=" nav-item"><a href="submit-fees.php"><i class="la la-dollar"></i><span class="menu-title" data-i18n="nav.dash.main">Submit Fees</span></a>
         </li>
-
+        <li class=" nav-item"><a href="submit-fees.php"><i class="la la-dollar"></i><span class="menu-title" data-i18n="nav.dash.main">Payment</span></a>
+        </li>
 
 
 

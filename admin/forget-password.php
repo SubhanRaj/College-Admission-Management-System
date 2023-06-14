@@ -95,7 +95,7 @@ data-open="click" data-menu="vertical-menu" data-col="1-column">
               <div class="card border-grey border-lighten-3 m-0">
                 <div class="card-header border-0 pb-0">
                    <div class="card-title text-center">
-              <h4 style="font-weight: bold"> CAMS Admin</h4>
+              <h4 style="font-weight: bold"> ARC Admin</h4>
                   </div>
                   <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2">
                     <span>Recover your password</span>
@@ -154,7 +154,7 @@ data-open="click" data-menu="vertical-menu" data-col="1-column">
   <!-- ////////////////////////////////////////////////////////////////////////////-->
   <footer class="footer fixed-bottom footer-dark navbar-border navbar-shadow">
     <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
-      <span class="float-md-left d-block d-md-inline-block">Copyright &copy; <?php echo date('Y');?> <a class="text-bold-800 grey darken-2">CAMS </a>, All rights reserved. </span>
+      <span class="float-md-left d-block d-md-inline-block">Copyright &copy; <?php echo date('Y');?> <a class="text-bold-800 grey darken-2">ARC </a>, All rights reserved. </span>
 
     </p>
   </footer>

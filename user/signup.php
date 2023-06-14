@@ -101,7 +101,7 @@ if (isset($_POST['submit'])) {
               <div class="card border-grey border-lighten-3 m-0">
                 <div class="card-header border-0 pb-0">
                   <div class="card-title text-center">
-                    <h4 style="font-weight: bold"> CAMS User Signup</h4>
+                    <h4 style="font-weight: bold"> ARC User Signup</h4>
                   </div>
                   <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2">
                     <span>Please Sign Up</span>

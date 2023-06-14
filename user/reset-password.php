@@ -107,7 +107,7 @@ data-open="click" data-menu="vertical-menu" data-col="1-column">
               <div class="card border-grey border-lighten-3 m-0">
                 <div class="card-header border-0 pb-0">
                    <div class="card-title text-center">
-              <h4 style="font-weight: bold"> CAMS Reset Password</h4>
+              <h4 style="font-weight: bold"> ARC Reset Password</h4>
                   </div>
                   <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2">
                     <span>Reset</span>
