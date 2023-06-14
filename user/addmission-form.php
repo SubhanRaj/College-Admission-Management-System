@@ -106,7 +106,7 @@ move_uploaded_file($_FILES["tcimage"]["tmp_name"],"userdocs/".$tc);
 <html class="loading" lang="en" data-textdirection="ltr">
 <head>
 
-  <title>College Addmission Management System|| Addmission Form</title>
+  <title>College Admission Management System|| Admission Form</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
   rel="stylesheet">
   <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"
@@ -168,7 +168,7 @@ if($rw>0)
 {
 while($row=mysqli_fetch_array($query)){
 ?>
-<p style="font-size:16px; color:red" align="center">Your Addmission Form already submitted.</p>
+<p style="font-size:16px; color:red" align="center">Your Admission Form already submitted.</p>
   <div  id="exampl">     
 <table class="table mb-0" border="1" width="100%">
 <tr>

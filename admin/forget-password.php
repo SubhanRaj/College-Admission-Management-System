@@ -30,7 +30,7 @@ if(isset($_POST['submit']))
 <html class="loading" lang="en" data-textdirection="ltr">
 <head>
 
-  <title>College Addmission Management System!!Forgot Password
+  <title>College Admission Management System!!Forgot Password
   </title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
   rel="stylesheet">

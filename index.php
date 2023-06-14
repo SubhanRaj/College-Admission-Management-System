@@ -167,7 +167,7 @@ error_reporting(0);
 
           <div class="column1">
             <div class="heading">
-              <h3 class="head text-white">Apply for Addmission</h3>
+              <h3 class="head text-white">Apply for Admission</h3>
               <h4>Limited Seat Available</h4>
               <p class="my-3 text-white">Apply now to secure your spot and embark on an exciting journey towards academic excellence. Don't miss the opportunity to join our prestigious institution. Click the button below to begin your application process.</p>
             </div>
